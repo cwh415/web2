@@ -7,23 +7,27 @@
 </head>
 <body>
     <form action="">
-        <table>
-            <tr>
-                <td><label for="username">이름</label></td> <!-- username 을 위한 label-->
-                <td><input type="text" name="username" id="username"></td>
-            </tr>
-            <tr>
-                <td>성별</td>
-                <td>
-                    <input type="radio" name="gender" value="m" id="male"><label for="male">남성</label> <!-- id가 male 을 위한 label-->
-                    <input type="radio" name="gender" value="f" id="female"><label for="female">여성</label> <!-- id가 female 을 위한 label-->
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2"><input type="submit" value="가입"></td>
-                
-            </tr>
-        </table>
+        <fieldset> 
+            <legend>회원가입</legend><!-- legend 와 함께 03 이후에 배움-->
+            <table>
+                <tr>
+                    <td><label for="username">이름</label></td> <!-- username 을 위한 label-->
+                    <td><input type="text" name="username" id="username"></td>
+                </tr>
+                <tr>
+                    <td>성별</td>
+                    <td>
+                        <input type="radio" name="gender" value="m" id="male"><label for="male">남성</label> <!-- id가 male 을 위한 label-->
+                        <input type="radio" name="gender" value="f" id="female"><label for="female">여성</label> <!-- id가 female 을 위한 label-->
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="가입"></td>
+                    
+                </tr>
+            </table>
+        </fieldset>
+        
     </form>
 </body>
 </html>
