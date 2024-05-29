@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/screen.css" media="screen">
-    <link rel="stylesheet" href="css/print.css" media="print">
+    <style>
+        /* 스마트폰(소형 디바이스인 경우)*/
+        @media screen and (max-width: 767px){
+            body{
+                background-color: rgb(212, 19, 19);
+            }
+        }
+
+        /* 스마트폰(중형 디바이스인 경우)*/
+        @media screen and (min-width: 768px){
+            body{
+                background-color: rgb(52, 65, 247);
+            }
+        }
+
+        /* 스마트폰(대형 디바이스인 경우)*/
+        @media screen and (min-width: 960px){
+            body{
+                background-color: rgb(255, 255, 0);
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>Artificial Intelligence Software</h1>
